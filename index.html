@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+    <title>Surve Form</title>
+    
+    
+<style>
+         
+body{
+    background-color: #222831;
+    text-align:center;
+    font-family: 'Space Mono', monospace;
+    color:azure;
+}
+
+
+
+.textcolor{
+    color: #00ADB5;
+    font-size:50px;
+    text-shadow: 5px 5px 4px #343e4d;
+    font-family: 'Changa', sans-serif;
+}
+
+.font{
+    font-family: 'Space Mono', monospace;
+    color:#ffffff
+}
+ 
+#fontsize{
+    font-size: 10px;
+    font-family:arial;
+    
+}
+form{
+    background-color: #654E92;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 1px #00ADB5;
+    text-align:left;
+}
+
+.formcontrol label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#align{
+    text-align:right;
+}
+
+
+.formcontrol input,
+.formcontrol select,
+.formcontrol textarea{
+    border: 1px rgb(92, 38, 32);
+    border-radius:2px;
+    padding:10px;
+    display:block;
+    width:95%;
+   
+}
+
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h class="textcolor">Survey Of Joining</h>
+
+    <form>
+   <div class="formcontrol" >
+    <label for="fullname" id="label-fullname">Name</label>
+    <input type="text" id="name" placeholder="Enter Your Full Name">
+   </div>
+   <br><br>
+
+<div class="formcontrol" >
+    <label for="email" id="label-email" >Email</label>
+    <input type="text" id="email" placeholder="Enter your Email"></intput>
+</div>
+
+<br><br>
+<div class="formcontrol">
+    <label for="age" id="label-age">Age</label>
+
+    <input type="number" id="age" placeholder="Enter Your Age">
+
+</div>
+<br><br>
+
+
+<div class="formcontrol">
+<label for="role" id="label-role">Which Option Best Describes you
+    
+    <select name="role" id="label-role">
+    <option value="Select">Select</option>
+        <option value="Student">Student</option>
+        <option value="Intern">Intern</option>
+        <option value="Professional">Professional</option>
+        <option value="Others">Others</option> 
+    </select>
+</label>
+</div>
+<br>
+<br>
+<div class="formcontrol" >
+    <label for="gender" id="label-age" >Gender</label>
+    
+    <select name="gender" id="label-gender">
+ <option value="Male">Select</option>
+ <option value="Male">Male</option>
+ <option value="Female">Female</option>
+ <option value="Others">Others</option>
+ 
+    </select>
+    
+</div>
+<br>
+<br>
+<div>
+    <label>Which language do you know?</label>
+<br><small id="fontsize">Check all that apply</small>
+
+<br>
+<br>
+                <label for="inp1" id="label-inp1">
+                    <input type="checkbox" name="inp">C
+                </label>
+<br>
+                <label for="inp2" id="label-inp2">
+                    <input type="checkbox" name="inp">C++
+                </label>
+<br>
+                <label for="inp3" id="label-inp3">
+                    <input type="checkbox" name="inp">JAVA
+                </label>
+<br>
+                <label for="inp4" id="label-inp4">
+                    <input type="checkbox" name="inp">C#
+                </label>
+<br>
+                <label for="inp5" id="label-inp5">
+                    <input type="checkbox" name="inp">Python
+                   
+                </label>
+<br>
+                <label for="inp6" id="label-inp6">
+                    <input type="checkbox" name="inp">JavaScript
+                   
+                </label>
+<br>
+                <label for="inp7" id="label-inp7">
+                    <input type="checkbox" name="inp">React
+                    
+                </label>
+
+<br>
+                <label for="inp8" id="label-inp8">
+                    <input type="checkbox" name="inp">Angular
+                    
+                </label>
+
+<br>
+                <label for="inp9" id="label-inp9">
+                    <input type="checkbox" name="inp">Django
+                    
+                </label>
+<br>
+                <label for="inp10" id="label-inp10">
+                    <input type="checkbox" name="inp">Spring
+                    
+                </label>
+
+
+
+</div>
+<br>
+<br>
+<div class="formcontrol">
+    <label for="Suggestions" id="label-suggestions" >Any Suggestions for me.</label>
+    <input type="text" id="label-suggestions" placeholder="Write Here">
+
+</div>
+<br>
+<br>
+
+<button  type="submit" value="submit">Submit</button>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
